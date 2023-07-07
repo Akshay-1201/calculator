@@ -4,7 +4,7 @@ import './App.css'
 
 
 const App = () => {
-  const[input,setInput] = useState('Hello')
+  const[input,setInput] = useState('')
   const clear = ()=>{
     setInput('');
   }
